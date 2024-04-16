@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "module": "esnext",
+        "target": "es6",
+        "jsx": "react-jsx",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "plugins": [{ "name": "typescript-plugin-css-modules" }],
+        "lib": ["decorators", "dom", "es6", "scripthost", "es2015.promise"]
+    },
+    "include": ["src"],
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    }
+}
